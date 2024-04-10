@@ -53,11 +53,11 @@
   }
 }
 
+ /* ---------------call us on--------------- */
 .call-us-btn-cmp button {
-  height: 135px;
-  padding: 5px 15px 5px 15px;
-  border-radius: 50px;
-  background-color:"#1E1E1E";
+  padding: 30px;
+  border-radius: 100px;
+  background-color: rgb(21, 21, 21);
   border: none;
   width: fit-content;
   display: flex;
@@ -65,5 +65,22 @@
   flex-direction: row;
   align-items: center;
   text-align: center;
-  font-size: 40px !important;
+  font-size: 28px !important;
+  color: #ffffff;
+}
+
+.call-us-call-btn-number{
+  font-family: Josl;
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0px 10px 0px 10px;
+}
+
+.call-us-call-icon{
+  font-size: 48px;
+  color: var(--primary);
+  transform: rotate(30deg);
+  padding-left: 5px;
+
 }
