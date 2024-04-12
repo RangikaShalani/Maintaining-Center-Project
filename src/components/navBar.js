@@ -9,7 +9,6 @@ function AppNavBar() {
             <Grid sx={{ flexGrow: 1 }} container spacing={4}>
                 <Grid item xs={12}>
                     <Grid container justifyContent="center" spacing={4}>
-                       
                             <Grid item>
                                 <li>
                                     <Link to="/">Home</Link>
@@ -22,7 +21,37 @@ function AppNavBar() {
                             </Grid>
                             <Grid item>
                                 <li>
-                                    <Link to="/">Home</Link>
+                                    <Link to="/serviceAreas">Service Areas</Link>
+                                </li>
+                            </Grid>
+                            <Grid item>
+                                <li>
+                                    <Link to="/aboutUs">About Us</Link>
+                                </li>
+                            </Grid>
+                            <Grid item>
+                                <li>
+                                <Link to="/contactUs">Contact Us</Link>
+                                </li>
+                            </Grid>
+                            <Grid item>
+                                <li>
+                                    <Link to="/blogs">Blogs</Link>
+                                </li>
+                            </Grid>
+                            <Grid item>
+                                <li>
+                                <Link to="/faqs"> FAQs</Link>
+                                </li>
+                            </Grid>
+                            <Grid item>
+                                <li>
+                                    <Link to="/estimateTow">Estimate Tow</Link>
+                                </li>
+                            </Grid>
+                            <Grid item>
+                                <li>
+                                    <Link to="/privacyPolicy">Privacy Policy</Link>
                                 </li>
                             </Grid>
                     </Grid>
