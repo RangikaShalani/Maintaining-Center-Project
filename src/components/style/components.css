@@ -37,13 +37,7 @@
   font-weight: 600;
   color: #ffffff;
 }
-.marquee_group span:nth-child(1),
-.marquee_group span:nth-child(3) {
-  font-family: "Jost";
-}
-.marquee_group span:nth-child(2) {
-  font-family: "Jost";
-}
+
 @keyframes scroll {
   from {
     transform: translateX(0);
@@ -56,6 +50,7 @@
  /* ---------------call us on--------------- */
 .call-us-btn-cmp button {
   padding: 30px;
+  margin: 0px 0px 20px 0px;
   border-radius: 100px;
   background-color: rgb(21, 21, 21);
   border: none;
@@ -70,7 +65,6 @@
 }
 
 .call-us-call-btn-number{
-  font-family: Josl;
   font-size: 36px;
   font-weight: 700;
   color: #ffffff;
@@ -83,4 +77,61 @@
   transform: rotate(30deg);
   padding-left: 5px;
 
+}
+
+/* carAndLight-mask1 */
+
+.car-and-light-mask1{
+  -webkit-mask-image: url(../../assets/img/carAndLightMarks-1.png);
+  mask-image: url(../../assets/img/carAndLightMarks-1.png);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat; 
+  width: 550px;
+  height: 450px;
+}
+
+.car-and-light-tex{
+  position: absolute;
+  z-index: 1;
+  color: black;
+  font-size: 24px;
+  width: 130px;
+  font-weight: 300;
+  margin: 25px;
+}
+
+.car-and-light-arrow{
+  position: absolute;
+  z-index: 1;
+  margin-left: 28%;
+  margin-top: 17%;  
+}
+
+/* Estimate cal */
+.estimate-cal-main-cmp{
+  background-color: #F5F5F5;
+  border-radius: 20px;
+  padding: 30px;
+}
+.estimate-cal-header-tex{
+  font-weight: 100 !important;
+  font-size: 56px !important;
+  line-height: 60px !important;
+}
+.estimate-cal-term-box{
+  display: flex;
+  flex-direction: column !important;
+  justify-content: space-between;
+}
+.estimate-cal-terms-tex{
+  font-size: 12px;
+  color: rgb(37, 37, 37);
+}
+.estimate-cal-estimate-btn{
+  background-color: var(--primary) !important;
+  border-radius: 50px !important;
+}
+
+.css-18bla9a-MuiGrid-root{
+  padding: 0px !important;
 }

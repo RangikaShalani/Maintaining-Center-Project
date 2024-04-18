@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+.header-call-btn-number , .call-us-call-btn-number , .marquee_group span:nth-child(1), .marquee_group span:nth-child(2) , .marquee_group span:nth-child(3){
+  font-family: "Josl"; 
+}
+.home-page-roadside-txt , .car-and-light-tex , .estimate-cal-header-tex{
+  font-family: "Raleway" !important;
+}
+
 
 :root {
   --primary: #FF5C00;
@@ -10,6 +17,7 @@
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -55,7 +63,7 @@
 
 .mts-website{
   padding: 20px;
-  background-color: bisque;
+  /* background-color: bisque; */
 }
 
 .App {
@@ -113,7 +121,6 @@
 }
 
 .header-call-btn-number{
-  font-family: Josl;
   font-size: large;
   
 }
@@ -139,4 +146,18 @@
   transform: translateY(-50%) rotate(-20deg);
   margin-left: 100px;
 
+}
+.home-page-main-cmp{
+  padding: 100px 50px 100px 50px;
+}
+
+.home-page-roadside-txt{
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 90%;
+  margin-bottom: 20px;
+}
+
+.home-page-roadside-txt span{
+  color: var(--primary);
 }
