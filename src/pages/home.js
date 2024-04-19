@@ -10,6 +10,7 @@ import AnimationAddressBar from '../components/animationBar';
 import EstimateCal from '../components/estimateCal';
 import CarAndLight from '../components/carAndLight';
 import MeetOurProfessionals from '../components/meetOurProfessionals';
+import LogoSlider from '../components/LogoSlider';
 
 const Home = () => {
   return (
@@ -44,6 +45,7 @@ const Home = () => {
           </div>
         </Grid>
       </Grid>
+      <LogoSlider />
       <MyComponent />
 
 

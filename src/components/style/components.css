@@ -135,3 +135,36 @@
 .css-18bla9a-MuiGrid-root{
   padding: 0px !important;
 }
+
+/* logo slider */
+
+.marquee_container-logo-slider {
+  width: 100%;
+}
+.marquee-logo-slider {
+  background-color: rgba(128, 128, 128, 0);
+  transform: translateY(-50%);
+  width: 102%;
+  height: fit-content;
+  display: flex;
+  gap: 30px;
+  overflow: hidden;
+}
+.marquee_group-logo-slider {
+  display: flex;
+  flex-shrink: 0;
+  gap: 30px;
+  min-width: 100%;
+  align-items: center;
+  justify-content: center;
+  animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-100% - 20px));
+  }
+}
