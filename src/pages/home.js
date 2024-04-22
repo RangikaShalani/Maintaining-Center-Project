@@ -10,6 +10,7 @@ import AnimationAddressBar from '../components/animationBar';
 import EstimateCal from '../components/estimateCal';
 import CarAndLight from '../components/carAndLight';
 import MeetOurProfessionals from '../components/meetOurProfessionals';
+import Footer from '../components/footer';
 
 const Home = () => {
   return (
@@ -24,7 +25,9 @@ const Home = () => {
         <Grid item xs={6}>
           <div>
             <p className='home-page-roadside-txt'>ROADSIDE <br></br><span className=''>RESCUE</span><br></br>STARTS HERE!</p>
-            <CallUsBtn />
+            <div style={{marginBottom:"20px"}}>
+              <CallUsBtn />
+            </div>
             <CarAndLight />
           </div>
         </Grid>
@@ -45,7 +48,7 @@ const Home = () => {
         </Grid>
       </Grid>
       <MyComponent />
-
+      <Footer />
 
 
     </div>

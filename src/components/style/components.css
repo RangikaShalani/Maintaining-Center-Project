@@ -1,6 +1,54 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
+/* footer start */
+.footer-container {
+  background-color: #333333;
+  border-top-left-radius: var(--border-radius);
+  background-size: cover;
+  position: "relative";
+  min-height: 519px;
+  display: grid;
+  grid-gap: 10px;
+  grid: 25% 12% 13% 13% 18% 19%;
+}
+
+.footer-row-call-us {
+  background-image: url("../../../public/assets/img/footer.png");
+  background-position: "center";
+  overflow: hidden;
+  padding: 70px 0px 70px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: 1 / 1 / span 1 / span 6;
+  height: inherit;  
+}
+
+.footer-col-towing {
+  grid-area: 2 / 1 / span 1 / span 2;
+}
+
+.footer-col-estimate {
+  grid-area: 2 / 3 / span 1 / span 2;
+}
+
+.footer-col-services {
+  grid-area: 2 / 5 / span 1 / span 2;
+}
+
+.footer-social-media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social-media div {
+  margin-inline: 40px;
+}s
+
+/* footer end */
+
 .animation-adress-bar {
   background-color: var(--primary);
   height: fit-content;
@@ -47,14 +95,13 @@
   }
 }
 
- /* ---------------call us on--------------- */
+/* ---------------call us on--------------- */
 .call-us-btn-cmp button {
-  padding: 30px;
-  margin: 0px 0px 20px 0px;
+  padding: 15px;
   border-radius: 100px;
-  background-color: rgb(21, 21, 21);
   border: none;
   width: fit-content;
+  background-color: black;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -64,33 +111,43 @@
   color: #ffffff;
 }
 
-.call-us-call-btn-number{
-  font-size: 36px;
+.call-us-btn-cmp-footer {
+  width:90%;
+  border-radius: 100px;
+  border: var(--primary) solid 2px;
+  border-color: var(--primary);
+}
+
+.call-us-btn-cmp-footer button {
+  background-color: transparent;
+}
+
+.call-us-call-btn-number {
+  font-size: 28px;
   font-weight: 700;
   color: #ffffff;
   margin: 0px 10px 0px 10px;
 }
 
-.call-us-call-icon{
+.call-us-call-icon {
   font-size: 48px;
   color: var(--primary);
   transform: rotate(30deg);
   padding-left: 5px;
-
 }
 
 /* carAndLight-mask1 */
 
-.car-and-light-mask1{
+.car-and-light-mask1 {
   -webkit-mask-image: url(../../assets/img/carAndLightMarks-1.png);
   mask-image: url(../../assets/img/carAndLightMarks-1.png);
   -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat; 
+  mask-repeat: no-repeat;
   width: 550px;
   height: 450px;
 }
 
-.car-and-light-tex{
+.car-and-light-tex {
   position: absolute;
   z-index: 1;
   color: black;
@@ -100,38 +157,38 @@
   margin: 25px;
 }
 
-.car-and-light-arrow{
+.car-and-light-arrow {
   position: absolute;
   z-index: 1;
   margin-left: 28%;
-  margin-top: 17%;  
+  margin-top: 17%;
 }
 
 /* Estimate cal */
-.estimate-cal-main-cmp{
-  background-color: #F5F5F5;
+.estimate-cal-main-cmp {
+  background-color: #f5f5f5;
   border-radius: 20px;
   padding: 30px;
 }
-.estimate-cal-header-tex{
+.estimate-cal-header-tex {
   font-weight: 100 !important;
   font-size: 56px !important;
   line-height: 60px !important;
 }
-.estimate-cal-term-box{
+.estimate-cal-term-box {
   display: flex;
   flex-direction: column !important;
   justify-content: space-between;
 }
-.estimate-cal-terms-tex{
+.estimate-cal-terms-tex {
   font-size: 12px;
   color: rgb(37, 37, 37);
 }
-.estimate-cal-estimate-btn{
+.estimate-cal-estimate-btn {
   background-color: var(--primary) !important;
   border-radius: 50px !important;
 }
 
-.css-18bla9a-MuiGrid-root{
+.css-18bla9a-MuiGrid-root {
   padding: 0px !important;
 }
